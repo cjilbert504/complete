@@ -10,13 +10,15 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_07_042836) do
+ActiveRecord::Schema.define(version: 2021_10_07_045236) do
 
   create_table "complete_completions", force: :cascade do |t|
     t.string "completable_type", null: false
     t.integer "completable_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
+    t.integer "completor_id"
+    t.string "completor_type"
     t.index ["completable_type", "completable_id"], name: "index_complete_completions_on_completable"
   end
 

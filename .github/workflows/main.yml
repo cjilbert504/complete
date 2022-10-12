@@ -30,8 +30,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: ${{ matrix.ruby-version }}
-          bundler: default
-          bundler-cache: true
+          # bundler: default
+          # bundler-cache: true
       - name: StandardRb check
         run: bundle exec standardrb
       - name: Run tests

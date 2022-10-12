@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   end
 
   spec.add_dependency "rails", "~> 7.0.4"
-  spec.add_development_dependency "standard", "~> 1.16", ">= 1.16.1"
+  spec.add_development_dependency "standardrb", "~> 1.0", ">= 1.0.1"
 end

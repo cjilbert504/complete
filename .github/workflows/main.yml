@@ -32,6 +32,8 @@ jobs:
           ruby-version: ${{ matrix.ruby-version }}
           # bundler: default
           # bundler-cache: true
+      - name: Install dependencies
+        run: bundle install
       - name: StandardRb check
         run: bundle exec standardrb
       - name: Run tests

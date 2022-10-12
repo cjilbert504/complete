@@ -19,8 +19,8 @@ jobs:
           - rails_7
           - rails_master
     env:
-      BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{ matrix.gemfile }}.gemfile
-      BUNDLE_PATH_RELATIVE_TO_CWD: true
+      # BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{ matrix.gemfile }}.gemfile
+      # BUNDLE_PATH_RELATIVE_TO_CWD: true
 
     steps:
       - name: SQLite3 version
@@ -51,8 +51,8 @@ jobs:
           - rails_7
           - rails_master
     env:
-      BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{ matrix.gemfile }}.gemfile
-      BUNDLE_PATH_RELATIVE_TO_CWD: true
+      # BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{ matrix.gemfile }}.gemfile
+      # BUNDLE_PATH_RELATIVE_TO_CWD: true
 
     services:
       postgres:
@@ -90,8 +90,8 @@ jobs:
           - rails_7
           - rails_master
     env:
-      BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{ matrix.gemfile }}.gemfile
-      BUNDLE_PATH_RELATIVE_TO_CWD: true
+      # BUNDLE_GEMFILE: ${{ github.workspace }}/gemfiles/${{ matrix.gemfile }}.gemfile
+      # BUNDLE_PATH_RELATIVE_TO_CWD: true
 
     services:
       mysql:

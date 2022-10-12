@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  completable: one
+  completable_type: Course
+  completor: one
+  completor_type: User
+  completed: false
+
+two:
+  completable: two
+  completable_type: Course
+  completor: one
+  completor_type: User
+  completed: false

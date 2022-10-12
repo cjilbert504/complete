@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.version     = Complete::VERSION
   spec.authors     = ["Collin Jilbert"]
   spec.email       = ["cjilbert504@gmail.com"]
-  spec.homepage    = "TODO"
+  spec.homepage    = "https://github.com/cjilbert504/complete"
   spec.summary     = "A Ruby on Rails gem for marking records as complete."
   spec.description = "A Ruby on Rails gem for marking records as complete."
   spec.license     = "MIT"
@@ -15,7 +15,7 @@ Gem::Specification.new do |spec|
   # spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/cjilbert504/complete"
   spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
